@@ -4,7 +4,41 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #000;
-    color: #fff;
+header{
+    height: 100px;
+    width: 800px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    z-index: 1000;
+    align-items: center;
+    text-align: center;
+}
+
+
+.container{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 80px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.container nav ul{
+    display: flex;
+    text-align: center;
+    gap: 100px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container nav ul li{
+    text-decoration: none;
+    text-align: center;
 }
