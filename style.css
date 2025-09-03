@@ -39,3 +39,7 @@ header{
     gap: 100px;
     list-style: none;
 }
+
+.container nav a {
+    text-decoration: none;
+}
